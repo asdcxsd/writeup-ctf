@@ -1,0 +1,94 @@
+login  ubuntu
+Máy chủ:
+ssh root@171.244.42.208
+Maychu1@ICPC
+
+admin
+admin@icpc
+
+
+----------------------------------
+Máy chấm 1:
+ssh root@171.244.42.209
+Maycham1@ICPC
+
+adduser icpc
+Maycham1@ICPC
+usermod -aG sudo icpc
+
+ssh icpc@171.244.42.209
+Maycham1@ICPC
+
+https://cms.readthedocs.io/en/latest/Installation.html
+
+
+sudo apt-get install build-essential openjdk-8-jdk-headless fp-compiler \
+    postgresql postgresql-client python3 cppreference-doc-en-html \
+    cgroup-lite libcap-dev zip
+
+sudo apt-get install python3-dev libpq-dev libcups2-dev libyaml-dev \
+    libffi-dev python3-pip
+
+wget https://github.com/cms-dev/cms/releases/download/v1.4.rc1/v1.4.rc1.tar.gz
+ tar -xf v1.4.rc1.tar.gz
+cd cms
+sudo python3 prerequisites.py install
+
+sudo usermod -a -G cmsuser icpc
+
+#export LC_ALL="en_US.UTF-8"
+#export LC_CTYPE="en_US.UTF-8"
+#sudo dpkg-reconfigure locales
+sudo pip3 install -r requirements.txt
+sudo python3 setup.py install
+
+
+sudo su - postgres
+
+createuser --username=postgres --pwprompt cmsuser
+cmspassword
+createdb --username=postgres --owner=cmsuser cmsdb
+psql --username=postgres --dbname=cmsdb --command='ALTER SCHEMA public OWNER TO cmsuser'
+psql --username=postgres --dbname=cmsdb --command='GRANT SELECT ON pg_largeobject TO cmsuser'
+
+Ctrl+D
+cmsInitDB
+vim /usr/local/etc/cms.conf
+
+edit "database": "postgresql+psycopg2://cmsuser:cmspassword@localhost:5432/cmsdb",
+"database": "postgresql+psycopg2://cmsuser:cmspassword@localhost:5432/cmsdb",
+
+sudo cmsAdminWebServer
+
+adduser admin
+sudo cmsAddAdmin admin -p admin@icpc
+
+
+
+chuyen file 01 -> input1.txt
+
+mv tests/*.a output/
+mv tests/* input/
+for x in input/*; do mv $x input/input${x/input\/}.txt; done
+for x in input/input0*; do mv $x input/input${x/input\/input0}; done
+for x in output/*; do  k=${x%.a}; mv $x output/output${k/output\/}.txt ; done
+for x in output/output0*; do mv $x output/output${x/output\/output0}; done
+rm -r tests/
+for x in input/*; do k=${x%.txt}; p=${k/input\/input}; q=$(($p-1)); mv $x input/input$q; done
+for x in input/*; do mv $x $x.txt; done
+for x in output/*; do k=${x%.txt}; p=${k/output\/output}; q=$(($p-1)); mv $x output/output$q; done
+for x in output/*; do mv $x $x.txt; done
+
+
+for x in {1..1}; do cmsRemoveUser user$x ; done
+# add user
+for x in  $(seq -f "%03g" 1 99); do cmsAddUser user$x mta_icpc -p password_$x; done
+
+#remove user
+for x in  $(seq -f "%03g" 1 99);  do cmsRemoveUser user$x ; done
+
+
+---------------------------------------
+Maycham2
+ssh root@171.244.42.210
+Maycham2@ICPC
