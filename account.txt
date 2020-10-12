@@ -1,6 +1,58 @@
-Nguyễn Ngọc		Anh	userSC001	userSC001
-Đinh Viết		Đức	userSC002	userSC002
-Trần Quang		Đức	userSC003	userSC003
-Nguyễn Văn		Kiên	userSC004	userSC004
-Đỗ Thành		Long	userSC005	userSC005
-Kiều Đức		Long	userSC006	userSC006
+Nguyễn Thế		Anh	userKC001	userKC001
+Hoàng Thế		Anh	userKC002	userKC002
+Giáp Việt		Anh	userKC003	userKC003
+Trịnh Văn		Chiến Dũng	userKC004	userKC004
+Bùi Quốc		Cường	userKC005	userKC005
+Bùi Ngọc		Đại	userKC006	userKC006
+Phạm Văn		Đích	userKC007	userKC007
+Bùi Ngọc		Điệp	userKC008	userKC008
+Đặng Quang		Dư	userKC009	userKC009
+Trần Anh		Đức	userKC010	userKC010
+Trần Xuân		Đức	userKC011	userKC011
+Hoàng Đình		Đức	userKC012	userKC012
+Đỗ Văn		Dương	userKC013	userKC013
+Nguyễn Đức		Duy	userKC014	userKC014
+Phạm Văn		Duy	userKC015	userKC015
+Trương Hà		Giang	userKC016	userKC016
+Đỗ Phú		Hiến	userKC017	userKC017
+Nguyễn Công		Hiền	userKC018	userKC018
+Hoàng Quang		Hiển	userKC019	userKC019
+Nguyễn Hoàng		Hiệp	userKC020	userKC020
+Phạm Đăng		Hiếu	userKC021	userKC021
+Vũ Minh		Hoàng	userKC022	userKC022
+Dương Huy		Hoàng	userKC023	userKC023
+Nguyễn Sỹ		Hồng Quân	userKC024	userKC024
+Nguyễn Thị		Hồng Vy	userKC025	userKC025
+Đồng Xuân		Hùng	userKC026	userKC026
+Nguyễn Duy		Hùng	userKC027	userKC027
+Trần Văn		Hùng	userKC028	userKC028
+Nguyễn Bá		Khánh	userKC029	userKC029
+Nguyễn Tùng		Lâm	userKC030	userKC030
+Đỗ Thị		Linh Giang	userKC031	userKC031
+Bùi Hải		Long	userKC032	userKC032
+Phạm Văn		Long	userKC033	userKC033
+Đàm Đức		Long	userKC034	userKC034
+Trần Đức		Mạnh	userKC035	userKC035
+Lê Hồ		Mạnh Thắng	userKC036	userKC036
+Ngô Quang		Minh	userKC037	userKC037
+Nguyễn Đức		Minh	userKC038	userKC038
+Nguyễn Nhật		Minh	userKC039	userKC039
+Nguyễn Hoài		Nam	userKC040	userKC040
+Trần Thị		Ngọc Diễm	userKC041	userKC041
+Đặng Anh		Nguyên	userKC042	userKC042
+Trần Trọng		Nhân	userKC043	userKC043
+Nguyễn Quốc		Phương	userKC044	userKC044
+Vũ Hồng		Quân	userKC045	userKC045
+Đinh Công		Sơn	userKC046	userKC046
+Hoàng Công		Tăng	userKC047	userKC047
+Bùi Đức		Thắng	userKC048	userKC048
+Trần Văn		Thắng	userKC049	userKC049
+Nguyễn Xuân		Thành	userKC050	userKC050
+Đàm Trọng		Thao	userKC051	userKC051
+Lý Kinh		Thiên	userKC052	userKC052
+Đặng Thị		Thu Hồng	userKC053	userKC053
+Lê Đức		Thường	userKC054	userKC054
+Bùi Thanh		Trà	userKC055	userKC055
+Đoàn Quốc		Tuấn	userKC056	userKC056
+Vũ Ngọc		Tuấn	userKC057	userKC057
+Nguyễn Công		Tuấn Nam	userKC058	userKC058
