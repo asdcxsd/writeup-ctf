@@ -1,38 +1,6 @@
-Vũ Thái		An	userC001	userC001
-Đào Đức		Anh	userC002	userC002
-Kiều Trung		Anh	userC003	userC003
-Hoàng Trọng		Bình	userC004	userC004
-Nguyễn Mạnh		Cường	userC005	userC005
-Nguyễn Thái		Cường	userC006	userC006
-Dương Văn		Dần	userC007	userC007
-Đỗ Tiến		Đạt	userC008	userC008
-Ma Đình		Diện	userC009	userC009
-Nguyễn Hữu		Hải	userC010	userC010
-Nguyễn Văn		Hiến	userC011	userC011
-Phạm Minh		Hiếu	userC012	userC012
-Đỗ Văn		Hoàng	userC013	userC013
-Lữ Thái		Học	userC014	userC014
-Lê Hoàng		Huynh	userC015	userC015
-Trần Quang		Khải	userC016	userC016
-Đậu Thị		Liên	userC017	userC017
-Đỗ Ngọc		Long	userC018	userC018
-Nguyễn Tuấn		Long	userC019	userC019
-Bùi Hải		Long	userC020	userC020
-Nguyễn Khắc		Minh	userC021	userC021
-Nguyễn Lê		Minh	userC022	userC022
-Nguyễn Thị		Mơ	userC023	userC023
-Triệu Ninh		Ngân	userC024	userC024
-Phạm Bảo		Ngọc	userC025	userC025
-Nguyễn Hữu		Nhân	userC026	userC026
-Nguyễn Vĩnh		Nhật	userC027	userC027
-Thạch Thị		Nương	userC028	userC028
-Lê Văn		Phú	userC029	userC029
-Trần Thanh		Phương	userC030	userC030
-Vũ Việt		Phương	userC031	userC031
-Lê Thế		Quang	userC032	userC032
-Nguyễn Ngọc		Sơn	userC033	userC033
-Lê Anh		Thắng	userC034	userC034
-Bùi Thị		Thoa	userC035	userC035
-Đinh Xuân		Tùng	userC036	userC036
-Trần Thị		Vân Anh	userC037	userC037
-Nguyễn Đình		Việt	userC038	userC038
+Trần Bảo		Trung	userC070	userC070
+Huỳnh Phan		Ngọc Khang	userC071	userC071
+Trần Quốc		Huy	userC072	userC072
+Chu Tuấn		Kiệt	userC073	userC073
+Nguyễn Thị		Trà 	userC074	userC074
+Lê Thị		Thủy Ngân	userC075	userC075
